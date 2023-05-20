@@ -1,0 +1,27 @@
+{
+  "name": "social-media-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node utils/seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyboy808/social-media-db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnyboy808/social-media-db/issues"
+  },
+  "homepage": "https://github.com/jonnyboy808/social-media-db#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.0"
+  }
+}
