@@ -1,3 +1,4 @@
+// used names from a previous activity to seed data
 const usernames = [
     'Aaran',
     'Aaren',

@@ -1,7 +1,5 @@
 const { User, Thought } = require('../models');
 
-
-
 //function that executes the aggregate method on the user model and calculates the friendCount
 const friendCount = async (userId) =>
   User.aggregate(
@@ -14,7 +12,6 @@ const friendCount = async (userId) =>
         },
       },
     ]);
-
 
 module.exports = {
 
@@ -104,8 +101,6 @@ module.exports = {
       });
   },
 
-
-
   // POST /api/users/:userId/friends/:friendId
   addFriend(req, res) {
     // add friendId to userId's friend list
@@ -167,18 +162,5 @@ module.exports = {
       })
       .catch(err => res.json(err));
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 };

@@ -48,7 +48,6 @@ userSchema
     this.set({ username });
   });
 
-
 const User = model('User', userSchema);
 
 module.exports = User;
