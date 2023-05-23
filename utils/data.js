@@ -74,9 +74,57 @@ const names = [
     'Parker',
   ];
 
-  const appThoughts = [];
+  const appThoughts = [
+    `Hello world`,
+    `What is the meaning of life?`,
+    `I recently joined a band called '404 Not Found.' We're not very popular yet`,
+    `How come no one answers me`,
+    `Who do I talk to if my arm is itchy`,
+    `Does anyone even understand taxes?`,
+    `Should I have a soda today`,
+    `What if we are all in a simulation?`,
+    `I just love free food!!`,
+    `Wow, this is mind-blowing! I can't believe how far technology has come.`,
+    `I just had the most delicious meal ever. Food heaven!`,
+    `I'm so excited about my upcoming vacation. Can't wait to relax and explore new places.`,
+    `Today's workout was intense, but I feel amazing. It's all about pushing yourself`,
+    `I'm currently binge-watching this new TV series, and it's addictive. Can't stop watching!`,
+    `Just finished reading an incredible book, and I don't know how to read`,
+    `Had a productive day at work. Feels great to accomplish tasks and make progress`,
+    `Spent the day with friends laughing`,
+    `I accidentally walked into a glass door today. Talk about transparently.`,
+    `Does anyone else have that feeling when you can't stop smiling while reading these comments?`,
+    `I'm grateful for this online platform that brings people together!`,
+    `Why is my dog always jumping?`,
+    `My cat coughed up a fur ball should I be worried?`,
+    `We all live on a spec of dust withing a giant universe`,
+    `Can someone give me a ride to the bus stop...`,
+    `Who keeps taking a sock from my laundry!`,
+    `Why do my eyes hurt when I stare at the sun`,
+    `Who ever told you, you can't was probably right`,
+    `Dance until your legs fall off!`,
+  ];
 
-  const appReactions = [];
+  const appReactions = [
+    `Wow!`,
+    `Incredible!`,
+    `Yay!`,
+    `Amazing!`,
+    `Oh My!`,
+    `Noooo!`,
+    `Oh No!`,
+    `Yikes!`,
+    `Love this!`,
+    `Huh?`,
+    `Need more of this!`,
+    `Are you serious?`,
+    `Is this real?`,
+    `Probably`,
+    `No thanks!`,
+    `Understandable?`,
+    `Says who?`,
+    `I laughed!`,
+  ];
 
   // gets a random item given an array
 const getRandomArrItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
