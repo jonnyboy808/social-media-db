@@ -68,7 +68,7 @@ The first example shows an update to the email with the right box showing the up
 
 This second screenshot is an example of a specific user thoughts displaying
 
-![Created Thought](./assets/created-thought.png)
+![Created Thought](./assets/created-thoughts.png)
 
 ## Usage
 
