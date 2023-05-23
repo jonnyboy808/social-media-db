@@ -62,13 +62,13 @@ const reactionSchema = new Schema(
 Bellow are a couple examples of the api in use using Insomnia as a visual
 
 The first example shows an update to the email with the right box showing the updated email
-![User Update](./assets/user-update.png)
+![User Update](./Assets/user-update.png)
 
 ---
 
 This second screenshot is an example of a specific user thoughts displaying
 
-![Created Thought](./assets/created-thoughts.png)
+![Created Thought](./Assets/created-thoughts.png)
 
 ## Usage
 
