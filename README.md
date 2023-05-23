@@ -76,8 +76,6 @@ This second screenshot is an example of a specific user thoughts displaying
 Make sure you have followed the walkthrough video in the [links](#links) section for additional clarity. To use the code simply fork or clone it to your local machine for usage. Once the code is opened, seed the data using a command line interface, update the data withing the seed to better match you needs. In addition use a software like Insomnia to set your desired routes and connections for testing purposes. This API allows connections to be made with a specific user such as friends, thoughts, and reactions. Additionally this can be used to delete associated friends, thoughts, and reactions from a specific user.
 
 
-
-
 ## License
 For additional information on this license please use the provided link
 
